@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family:"Poppins",sans-serif;
+            background-color:#fff;
+            margin:0;
+            padding:0;
+        }
+        form {
+            background-color:#fff;
+            height: 800px;
+            width:600px;
+            margin: auto;
+            left:0;
+            right:0;
+            top: 0;
+            bottom: 0;
+            margin-top:90px;
+        }
+        form * {
+            padding:15px;
+            margin-left:20px;
+            border-radius:4px;
+            margin-bottom:18px;
+            width:500px;
+            font-family:"Poppins",sans-serif;
+            color:rgb(104, 95, 95);
+        }
+        h1 {
+            text-align:center;
+            margin-bottom:10px;
+            color:#4a98f7;
+            
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        label {
+            margin-left:-12px;
+        }
+        #login {
+            width: 330px;
+            padding: 12px 0;
+            display:block;
+            margin:0 auto;
+            background-color:#4a98f7;
+            color:#fff;
+            border-radius:3px;
+            cursor:pointer;
+            border-style:none;
+            box-shadow: 0px 0px 10px rgba(125, 111, 111, 0.25);
+            transition:transform 0.5s ease, box-shadow 0.5 ease;
+        }
+        #login:hover {
+            transform: scale(1.1) translateY(-1px);
+            box-shadow: 0 5px 15px rgb(202, 202, 207);
+        }
+        marquee {
+            margin-top:15px;
+            margin-bottom:60px;
+            width:800px;
+            margin-left:-100px;
+            height:2px;
+            padding:0;
+        }
+        .signup {
+            text-align:center;
+            margin-top:-10px;
+            display:flex;
+        }
+        p {
+            margin-left:50px;
+            margin-right:-130px
+        }
+        a {
+            margin-left:-100px;
+            margin-top:17px;
+            font-size:1em;
+            color: #0000EE;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Login Page</h1>
+        <marquee bgcolor="#4a98f7"></marquee>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" placeholder="Enter Username"><br><br>
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" placeholder="Enter Password"><br><br><br><br>
+        <button id="login">Login</button>
+        <div class="signup">
+            <p>Didn't have account?</p><a href="#">Sign up</a>
+        </div>
+    </form>
+</body>
+</html>
