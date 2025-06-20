@@ -1,27 +1,31 @@
-📅 Event Planning Assistant
-A simple, static event planning webpage built using HTML and CSS. This project provides a clean and responsive interface for users to add and view event details like event name, date, and time. Designed to demonstrate frontend layout skills and styling without any backend or JavaScript functionality.
+# 🗓️ Event Planning Assistant (HTML & CSS)
 
-✨ Features
-Static event planning layout with form-like input sections
+The **Event Planning Assistant** is a static webpage designed using **HTML** and **CSS** to help users input and organize basic event details. It features a clean, responsive interface with sections for **event name**, **date**, **time**, and **description**.
 
-Clean, responsive UI design using CSS Flexbox
+This project is ideal for beginners looking to strengthen frontend skills such as **semantic HTML**, **CSS styling**, and **layout design** using **Flexbox**. There is no JavaScript or backend functionality—this project is purely frontend-focused.
 
-Semantic HTML structure for better accessibility and readability
+---
 
-Organized codebase with consistent formatting and comments
+## ✨ Features
+- Static layout for entering event details  
+- Responsive design using **CSS Flexbox**  
+- Visually clean and structured interface  
+- Semantic and accessible HTML  
+- Organized styling using modern CSS practices  
 
-🛠️ Technologies Used
-HTML5 – Structure and content
+---
 
-CSS3 – Styling and layout
+## 🛠 Technologies Used
+- HTML5  
+- CSS3  
+- Visual Studio Code  
 
-VS Code – Development environment
+---
 
-📚 Learning Outcomes
-Practiced building structured web pages with semantic HTML
+## 📚 Learning Outcomes
+- Practiced writing semantic and structured HTML  
+- Applied **Flexbox** for responsive page layouts  
+- Improved understanding of **CSS styling** and **UI layout**  
 
-Applied CSS styling techniques including Flexbox, spacing, and typography
-
-Improved understanding of frontend design principles
-
+---
 
